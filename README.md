@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Phoenix, a theme by ThemeWagon team.
 
 ---
@@ -54,3 +55,8 @@ Happy editing!
 
 Get the figma design file here:
 [https://www.figma.com/design/pvqCZzxXDJDWRQfonCNyYM/Phoenix-v1.18.0-(Distributed)](<https://www.figma.com/design/pvqCZzxXDJDWRQfonCNyYM/Phoenix-v1.18.0-(Distributed))
+=======
+# graphs
+# Perceptron-Class
+# Perceptron-Class
+>>>>>>> 2d9408207f2029d2648da1e5fd07608034f5f435
