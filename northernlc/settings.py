@@ -67,7 +67,7 @@ WSGI_APPLICATION = 'northernlc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'btredb',
+        'NAME': 'btre_prod',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         'PORT': '5432',
