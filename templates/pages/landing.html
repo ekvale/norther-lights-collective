@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Landing Page{% endblock %}
+
+{% block content %}
+<main class="main" id="top">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-6 mx-auto text-center">
+        <h1>Welcome to Northern Lights Collective</h1>
+        <p class="lead">Your one-stop solution for premium products and services.</p>
+        <a href="{% url 'sign_up' %}" class="btn btn-primary btn-lg">Get Started</a>
+      </div>
+    </div>
+    <!-- Banner Image Section -->
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <img src="{% static 'assets/img/gallery/10.png' %}" class="img-fluid" alt="Banner Image" style="max-width: 100%; height: auto;">
+      </div>
+    </div>
+    <!-- End Banner Image Section -->
+    <div class="row mt-5">
+      <div class="col-lg-4">
+        <h2>About Us</h2>
+        <p>Learn more about our team and mission.</p>
+        <a href="{% url 'about' %}" class="btn btn-secondary">About Us</a>
+      </div>
+      <div class="col-lg-4">
+        <h2>Our Products</h2>
+        <p>Check out our wide range of products.</p>
+        <a href="{% url 'products' %}" class="btn btn-secondary">View Products</a>
+      </div>
+      <div class="col-lg-4">
+        <h2>Get Started</h2>
+        <p>Sign up to get started with our services.</p>
+        <a href="{% url 'sign_up' %}" class="btn btn-secondary">Sign Up</a>
+      </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
