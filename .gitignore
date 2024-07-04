@@ -32,3 +32,5 @@ Thumbs.db
 # Ignore zip files
 *.zip
 
+# Ignore PycharmProjects directory
+PycharmProjects/
