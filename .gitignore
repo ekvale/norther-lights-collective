@@ -34,3 +34,5 @@ Thumbs.db
 
 # Ignore PycharmProjects directory
 PycharmProjects/
+
+db.sqlite3
