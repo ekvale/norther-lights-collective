@@ -70,7 +70,7 @@ DATABASES = {
         'NAME': 'btredb',
         'USER': 'postgres',
         'PASSWORD': 'Atheism!2828',
-        'PORT': '5433',
+        'PORT': '5432',
         'HOST': 'localhost'
     }
 }
