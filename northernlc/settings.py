@@ -129,3 +129,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_URL = 'sign_in'
 LOGIN_REDIRECT_URL = 'index'  # Redirect to the home page after login
 LOGOUT_REDIRECT_URL = 'sign_in'  # Redirect to sign-in page after logout
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
